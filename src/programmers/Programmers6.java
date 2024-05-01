@@ -14,7 +14,7 @@ class Programmers6 {
         for(int i = 0; i < id_list.length; i++){
             idMap.put(id_list[i], i);
         }
-        
+
         //누가 누구를 신고했는지 2차원 배열에 증감 형태로 구현 (숫자는 1를 초과 하지 않는다 : 한 사람은 다른 사람을 신고를 한번 밖에 못한다)
         for (int i = 0; i < report.length; i++) {
             String tempRepoter = report[i].split(" ")[0];
