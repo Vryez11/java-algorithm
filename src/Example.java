@@ -1,16 +1,19 @@
 package src;
 
-import src.programmers.Programmers7;
+import src.programmers.Programmers8;
 
 public class Example {
     public static void main(String[] args) {
-        String[] park = {"OSO","OOO","OXO","OOO"};
-        String[] routes = {"E 2","S 3","W 1"};
-        Programmers7 solution = new Programmers7();
+        Programmers8 solution = new Programmers8();
+        String[] terms = {"Z 12"};
+        String[] privacies = {"2019.01.01 Z"};
 
-        int[] answer = solution.solution(park, routes);
-        for (int i : answer) {
-            System.out.println("i = " + i);
+        int[] result = {};
+
+        result = solution.solution("2020.01.01", terms, privacies);
+
+        for (int i : result) {
+            System.out.println(i);
         }
     }
 }
