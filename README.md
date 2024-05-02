@@ -5,7 +5,7 @@
 + 프로그래머스
 
 
-1. 가장 많이 받은 선물 (2024 KAKAO WINTER INTERNSHIP), Ref 데이터 전처리 부분 수정 및 추가
+1. 가장 많이 받은 선물 (2024 KAKAO WINTER INTERNSHIP), 1Ref 데이터 전처리 부분 수정
 2. PCCP 기출문제 1번 / 붕대 감기 (PCCP 기출문제)
 3. 옹알이 1 (코딩테스트 입문)
 4. 달리기 경주 (연습문제)
