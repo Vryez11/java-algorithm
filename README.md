@@ -17,6 +17,7 @@
 8. 개인정보 수집 유효기한 (2023 KAKAO BLIND RECRUITMENT)
 9. 정수를 나선형으로 배치하기 (코딩 기초 트레이닝)
 10. 신규 아이디 추천 (2021 KAKAO BLIND RECRUIMENT)
+11. 성격 유형 검사 (2022 KAKAO TECH INTERSHIP)
 
 -----------------------------
 
