@@ -7,17 +7,38 @@ public class Baekjoon20 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int hour = scanner.nextInt();
-        int min = scanner.nextInt();
-        int temphour = 0;
+        int firstAmount = scanner.nextInt();
+        int secondAmount = scanner.nextInt();
+        int thirdAmount = scanner.nextInt();
+        int sameAmount = 0;
+        int diceCase = 0;
 
-        int tempMin = scanner.nextInt();
-        int finHour = tempMin / 60;
-        int finMin = tempMin % 60;
+        if (firstAmount == secondAmount) {
+            diceCase++;
+            sameAmount = firstAmount;
+        }
+        if (firstAmount == thirdAmount) {
+            diceCase++;
+            sameAmount = thirdAmount;
+        }
+        if (secondAmount == thirdAmount) {
+            diceCase++;
+            sameAmount = secondAmount;
+        }
 
-        int resultMin = (min + finMin) > 59 ? min + finMin - 60 + temphour++ : min + finMin;
-        int resultHour = (hour + finHour + temphour) > 23 ? hour + finHour + temphour - 24  : hour + finHour + temphour;
+        int MaxAmount = (firstAmount >= secondAmount) ? firstAmount : secondAmount;
+        int LastMaxAmount = (MaxAmount >= thirdAmount) ? MaxAmount : thirdAmount;
 
-        System.out.println(resultHour + " " + resultMin);
+        switch (diceCase) {
+            case 3:
+                System.out.println((10000 + sameAmount * 1000));
+                break;
+            case 1:
+                System.out.println((1000 + sameAmount * 100));
+                break;
+            default:
+                System.out.println(LastMaxAmount * 100);
+
+        }
     }
 }

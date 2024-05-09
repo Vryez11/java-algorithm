@@ -7,15 +7,20 @@ public class Baekjoon18 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int X = scanner.nextInt();
-        int Y = scanner.nextInt();
+        int hour = scanner.nextInt();
+        int min = scanner.nextInt();
 
-        if (X * Y > 0) {
-            if (X > 0) System.out.println(1);
-            else System.out.println(3);
+        if ((min - 45) < 0){
+            min += 15;
+            if ((hour - 1) < 0) {
+                hour += 23;
+            } else {
+                hour -= 1;
+            }
         } else {
-            if (X > 0) System.out.println(4);
-            else System.out.println(2);
+            min -= 45;
         }
+
+        System.out.println(hour + " " + min);
     }
 }

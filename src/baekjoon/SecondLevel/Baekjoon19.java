@@ -9,18 +9,15 @@ public class Baekjoon19 {
 
         int hour = scanner.nextInt();
         int min = scanner.nextInt();
+        int temphour = 0;
 
-        if ((min - 45) < 0){
-            min += 15;
-            if ((hour - 1) < 0) {
-                hour += 23;
-            } else {
-                hour -= 1;
-            }
-        } else {
-            min -= 45;
-        }
+        int tempMin = scanner.nextInt();
+        int finHour = tempMin / 60;
+        int finMin = tempMin % 60;
 
-        System.out.println(hour + " " + min);
+        int resultMin = (min + finMin) > 59 ? min + finMin - 60 + temphour++ : min + finMin;
+        int resultHour = (hour + finHour + temphour) > 23 ? hour + finHour + temphour - 24  : hour + finHour + temphour;
+
+        System.out.println(resultHour + " " + resultMin);
     }
 }
