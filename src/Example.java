@@ -6,18 +6,16 @@ import src.programmers.Programmers10;
 import src.programmers.Programmers11;
 import src.programmers.Programmers12;
 import src.programmers.Programmers13;
+import src.programmers.Programmers14;
 
 public class Example {
     public static void main(String[] args) {
-        int[][] data = {{0,0,0,0,0},
-                        {0,0,1,0,3},
-                        {0,2,5,0,1},
-                        {4,2,4,4,2},
-                        {3,5,1,3,1}};
+        Programmers14 programmers14 = new Programmers14();
 
-        int[] moves = {1,5,3,5,1,2,1,4};
+        int[] data = {0,0};
+        String hand = "right";
 
-        int result = Programmers13.solution(data, moves);
+        String result = programmers14.solution(data, hand);
 
         System.out.println("result = " + result);
     }
