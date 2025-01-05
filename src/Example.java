@@ -1,12 +1,6 @@
 package src;
 
-import src.programmers.Programmers8;
-import src.programmers.Programmers9;
-import src.programmers.Programmers10;
-import src.programmers.Programmers11;
-import src.programmers.Programmers12;
-import src.programmers.Programmers13;
-import src.programmers.Programmers14;
+import src.programmers.problems.Programmers14;
 
 public class Example {
     public static void main(String[] args) {
