@@ -1,4 +1,4 @@
-package src.baekjoon.doit.mergeSort;
+package src.baekjoon.doit.radixSort;
 
 import java.io.BufferedReader;
 import java.io.IOException;
