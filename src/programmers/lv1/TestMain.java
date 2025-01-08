@@ -4,11 +4,14 @@ public class TestMain {
 
     public static void main(String[] args) {
 
-        Problem36 test = new Problem36();
+        Problem40 test = new Problem40();
 
-        String[] str = new String []{"abzcd","cdzab","abzfg","abzaa","abzbb","bbzaa"};
+        int[] a = new int[] {1, 2, 3, 4, 5};
+        int[] b = new int[] {6, 7, 8, 9, 10};
 
-        System.out.println("abzcd".compareTo("abzbb"));
-        String[] solution = test.solution(str, 2);
+        String[] solution = test.solution(5, a, b);
+        for (String s : solution) {
+            System.out.println(s);
+        }
     }
 }
