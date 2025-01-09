@@ -4,14 +4,13 @@ public class TestMain {
 
     public static void main(String[] args) {
 
-        Problem40 test = new Problem40();
+        Problem41 test = new Problem41();
 
-        int[] a = new int[] {1, 2, 3, 4, 5};
-        int[] b = new int[] {6, 7, 8, 9, 10};
+        String[] cards1 = new String[]{"i", "water", "drink"};
+        String[] cards2 = new String[]{"want", "to"};
+        String[] goal = new String[]{"i", "want", "to", "drink", "water"};
 
-        String[] solution = test.solution(5, a, b);
-        for (String s : solution) {
-            System.out.println(s);
-        }
+        String solution = test.solution(cards1, cards2, goal);
+        System.out.println(solution);
     }
 }
