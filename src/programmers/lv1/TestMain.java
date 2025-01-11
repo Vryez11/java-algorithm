@@ -1,16 +1,17 @@
 package src.programmers.lv1;
 
+import java.util.Arrays;
+
 public class TestMain {
 
     public static void main(String[] args) {
 
-        Problem41 test = new Problem41();
+        Problem51 test = new Problem51();
 
-        String[] cards1 = new String[]{"i", "water", "drink"};
-        String[] cards2 = new String[]{"want", "to"};
-        String[] goal = new String[]{"i", "want", "to", "drink", "water"};
+        int N = 5;
+        int[] stages = new int[]{2, 1, 2, 6, 2, 4, 3, 3};
 
-        String solution = test.solution(cards1, cards2, goal);
-        System.out.println(solution);
+        int[] result = test.solution(N, stages);
+        System.out.println(Arrays.toString(result));
     }
 }
