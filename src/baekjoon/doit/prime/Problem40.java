@@ -13,8 +13,8 @@ public class Problem40 {
 
         for (long i = 2; i * i <= max; i++) {
             long pow = i * i;
-            long start_index = min / pow;
-            if (min % pow != 0)
+            long start_index = min / pow; //min에서 가장 가까운 pow 찾기
+            if (min % pow != 0) // 나머지가 있으면 +1 해줘야함.
                 start_index++;
             for (long j = start_index; pow * j <= max; j++) {
                 check[(int)(pow * j - min)] = true;

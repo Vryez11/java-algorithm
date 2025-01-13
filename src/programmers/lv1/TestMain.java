@@ -6,12 +6,11 @@ public class TestMain {
 
     public static void main(String[] args) {
 
-        Problem51 test = new Problem51();
+        Problem56 test = new Problem56();
 
-        int N = 7;
-        int[] stages = new int[]{8, 8, 8, 8, 8, 8, 8, 7, 4, 4, 2, 4, 1, 5, 6};
+        String s = "aaabbaccccabba";
 
-        int[] result = test.solution(N, stages);
-        System.out.println(Arrays.toString(result));
+        int result = test.solution(s);
+        System.out.println("result = " + result);
     }
 }
