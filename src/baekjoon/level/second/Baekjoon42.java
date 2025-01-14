@@ -1,0 +1,27 @@
+package src.baekjoon.level.second;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.time.Duration;
+import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
+import java.util.StringTokenizer;
+
+public class Baekjoon42 {
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        int hour = Integer.parseInt(st.nextToken());
+        int min = Integer.parseInt(st.nextToken());
+        br.close();
+
+        LocalTime time = LocalTime.of(hour, min, 0);
+        Duration duration = Duration.of(45, ChronoUnit.MINUTES);
+
+        LocalTime minusTime = time.minus(duration);
+        System.out.println(minusTime.getHour() + " " + minusTime.getMinute());
+    }
+}
