@@ -25,7 +25,6 @@ public class Problem56 {
                     sumCount += entry.getValue();
                 }
             }
-
             if (firstCount == sumCount) {
                 res++;
                 myMap.clear();
