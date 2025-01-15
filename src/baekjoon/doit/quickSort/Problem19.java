@@ -1,4 +1,4 @@
-package src.baekjoon.doit.insertionSort;
+package src.baekjoon.doit.quickSort;
 
 import java.io.BufferedReader;
 import java.io.IOException;

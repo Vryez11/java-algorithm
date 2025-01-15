@@ -1,18 +1,18 @@
-package src.baekjoon.doit.insertionSort;
+package src.baekjoon.doit.quickSort;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Problem19Resolve {
-
-    static private int[]A;
-    static private int K;
+public class Problem19Ref {
+    private static int K;
+    private static int[] A;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
+
         int N = Integer.parseInt(st.nextToken());
         K = Integer.parseInt(st.nextToken());
         A = new int[N];
@@ -25,21 +25,23 @@ public class Problem19Resolve {
         System.out.println(A[K-1]);
 
         br.close();
-
     }
 
-    private static void quickSort(int start, int end){
-        int pivot = partition(start, end);
+    private static void quickSort(int start, int end) {
+        int pivot = pivot(start, end);
         if (pivot == K - 1) return;
         else if (pivot > K - 1) quickSort(start, pivot - 1);
         else quickSort(pivot + 1, end);
     }
 
-    private static int partition(int start, int end) {
-        if (start + 1 == end) {
-            if (A[start] > A[end]) swap(start, end);
+    private static int pivot(int start, int end) {
+        if (end - start == 1) {
+            if (A[start] > A[end]) {
+                swap(start, end);
+            }
             return end;
         }
+
         int M = (start + end) / 2;
         swap(start, M);
         int pivot = A[start];
