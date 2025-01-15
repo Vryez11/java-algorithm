@@ -26,13 +26,13 @@ public class Problem14 {
             if(absX == absY) {
                 // x가 y보다 작거나 같을 경우 : x가 음수 or x,y 같은 값
                 if(x<=y)
-                    return -1; // x에게 높은 우선순위를
+                    return -1; // +x에게 높은 우선순위를
                 else
                     return 1; // y에게 높은 우선순위를
             }
 
             // x가 y보다 작은 절대값 수일 경우
-            else if(absX < absY )
+            else if(absX < absY)
                 return -1;  // x에게 높은 우선순위를
 
                 // x가 y보다 큰 절대값 수일 경우
