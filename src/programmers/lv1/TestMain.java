@@ -6,11 +6,11 @@ public class TestMain {
 
     public static void main(String[] args) {
 
-        Problem56 test = new Problem56();
+        Problem63 test = new Problem63();
 
-        String s = "aaabbaccccabba";
+        int[] arr = {1, 2, 1, 2, 3, 1, 3, 1};
 
-        int result = test.solution(s);
+        int result = test.solution(arr);
         System.out.println("result = " + result);
     }
 }
