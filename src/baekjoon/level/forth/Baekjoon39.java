@@ -1,32 +1,24 @@
 package src.baekjoon.level.forth;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Baekjoon39 {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
 
-        int[] arrNum = new int[10];
-        int[] arrMod = new int[10];
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int count = 0;
-
-        for (int i = 0; i < arrNum.length; i++) {
-            arrNum[i] = scanner.nextInt();
+        int[] arr = new int[42];
+        for (int i = 0; i < 10; i++) {
+            arr[Integer.parseInt(br.readLine()) % 42]++;
         }
+        br.close();
 
-        for (int j = 0; j < arrMod.length; j++) {
-            arrMod[j] = 42 % arrNum[j];
+        for (int num : arr) {
+            if (num != 0) count++;
         }
-
-//        for (int k = 0; k < arrMod.length; k++) {
-//            for (int m = k; m < arrMod.length; m++) {
-//                if (arrMod[k] != arrMod[m]) {
-//                    count++;
-//                    break;
-//                }
-//            }
-//        }
 
         System.out.println(count);
     }
