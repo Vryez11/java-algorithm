@@ -3,7 +3,7 @@ package src.baekjoon.level.seventh;
 import java.util.Scanner;
 
 public class Baekjoon58 {
-    
+
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int[][] canvas = new int[100][100];
