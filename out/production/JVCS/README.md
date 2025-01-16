@@ -2,43 +2,6 @@
 # 프로그래머스 / 백준
 ----------------------------
 
-+ 프로그래머스
-
-
-1. 가장 많이 받은 선물 (2024 KAKAO WINTER INTERNSHIP), 1Ref 데이터 전처리 부분 수정
-   + 문제 고찰 : https://velog.io/@vryez1_/JAVA-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-1-%EA%B3%A0%EC%B0%B0
-     
-2. PCCP 기출문제 1번 / 붕대 감기 (PCCP 기출문제), 1Ref 중복 코드 및 필요없는 조건 수정
-   + 문제 고찰 : https://velog.io/@vryez1_/JAVA-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-2-%EB%B2%88%EC%A7%B8-%EA%B3%A0%EC%B0%B0
-   
-3. 옹알이 1 (코딩테스트 입문)
-   
-4. 달리기 경주 (연습문제)
-   
-5. 바탕화면 정리 (연습문제)
-   
-6. 신고 결과 받기 (2022 KAKAO BLIND RECRUITMENT)
-    
-7. 공원 산책 (연습문제)
-   + 문제 고찰 : https://velog.io/@vryez1_/Java-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-3-%EA%B3%A0%EC%B0%B0
-     
-8. 개인정보 수집 유효기한 (2023 KAKAO BLIND RECRUITMENT)
-    
-9. 정수를 나선형으로 배치하기 (코딩 기초 트레이닝)
-    
-10. 신규 아이디 추천 (2021 KAKAO BLIND RECRUIMENT)
-    
-11. 성격 유형 검사 (2022 KAKAO TECH INTERSHIP)
-    
-12. PCCP 기출문제 10번 / 데이터 분석 (PCCP 기출문제)
-    
-13. 크레인 인형 뽑기 (2019 카카오 개발자 겨울 인턴쉽)
-    
-14. 키패드 누르기 (2020 카카오 인턴쉽)
-    + 문제 고찰 : https://velog.io/@vryez1_/Java-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EB%AC%B8%EC%A0%9C-4-%EA%B3%A0%EC%B0%B0
-      
-15. 평행 (코딩테스트 입문)
-
 + 프로그래머스 Lv1
 1. 약수의 합
 2. 두 정수 사이의 합
@@ -103,7 +66,26 @@
 61. 체육복
 62. 숫자 짝꿍
 63. 햄버거 만들기
-    
+64. 가장 많이 받은 선물 (2024 KAKAO WINTER INTERNSHIP), 1Ref 데이터 전처리 부분 수정
+   + 문제 고찰 : https://velog.io/@vryez1_/JAVA-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-1-%EA%B3%A0%EC%B0%B0   
+65. PCCP 기출문제 1번 / 붕대 감기 (PCCP 기출문제), 1Ref 중복 코드 및 필요없는 조건 수정
+   + 문제 고찰 : https://velog.io/@vryez1_/JAVA-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-2-%EB%B2%88%EC%A7%B8-%EA%B3%A0%EC%B0%B0
+66. 옹알이 1 (코딩테스트 입문)
+67. 달리기 경주 (연습문제)
+68. 바탕화면 정리 (연습문제)
+69. 신고 결과 받기 (2022 KAKAO BLIND RECRUITMENT)
+70. 공원 산책 (연습문제)
+   + 문제 고찰 : https://velog.io/@vryez1_/Java-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-3-%EA%B3%A0%EC%B0%B0
+71. 개인정보 수집 유효기한 (2023 KAKAO BLIND RECRUITMENT)
+72. 정수를 나선형으로 배치하기 (코딩 기초 트레이닝)
+73. 신규 아이디 추천 (2021 KAKAO BLIND RECRUIMENT)
+74. 성격 유형 검사 (2022 KAKAO TECH INTERSHIP)
+75. PCCP 기출문제 10번 / 데이터 분석 (PCCP 기출문제)
+76. 크레인 인형 뽑기 (2019 카카오 개발자 겨울 인턴쉽)
+77. 키패드 누르기 (2020 카카오 인턴쉽)
+    + 문제 고찰 : https://velog.io/@vryez1_/Java-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EB%AC%B8%EC%A0%9C-4-%EA%B3%A0%EC%B0%B0
+78. 평행 (코딩테스트 입문)
+
 -----------------------------
 
 + 백준
@@ -121,6 +103,9 @@
 
 5. FifthLevel 단계별로 풀어보기 5단계 - (문자열)
    + (27866번, 2743번, 9086번, 11654번, 11720번, 10809번, 2675번, 1152번, 2908번, 5622번, 11718번)
+
+6. sixthLevel 단계별로 풀어보기 6단계 - (심화1)
+   + (25083번, 3003번, 2444번, 10988번, 1157번, 2941번, 1316번, 25206번)
 
 + Do it! 알고리즘 코딩 테스트
 1. 시간 복잡도

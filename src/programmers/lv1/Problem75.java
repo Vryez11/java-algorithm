@@ -1,6 +1,6 @@
 package src.programmers.lv1;
 
-public class Programmers12 {
+public class Problem75 {
     public static int[][] solution(int[][] data, String ext, int val_ext, String sort_by) {
         int count = 0;
         int idx = 0;
