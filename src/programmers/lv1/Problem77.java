@@ -1,6 +1,6 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
-public class Programmers14 {
+public class Problem77 {
     public String solution(int[] numbers, String hand) {
         String answer = "";
         int[] leftIndex = {0, 3};

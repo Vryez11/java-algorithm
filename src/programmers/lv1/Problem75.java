@@ -1,7 +1,4 @@
-package src.programmers.problems;
-
-import java.util.HashMap;
-import java.util.Map;
+package src.programmers.lv1;
 
 public class Programmers12 {
     public static int[][] solution(int[][] data, String ext, int val_ext, String sort_by) {

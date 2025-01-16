@@ -1,6 +1,6 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
-class Programmers3 {
+class Problem66 {
     public int solution(String[] babbling) {
         int answer = 0;
         //String 배열에 옹알이 종류 4개 저장

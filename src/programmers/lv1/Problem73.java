@@ -1,6 +1,6 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
-public class Programmers10 {
+public class Problem73 {
     public String solution(String new_id) {
         String temp_id;
 

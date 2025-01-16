@@ -1,6 +1,6 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
-public class Programmers9 {
+public class Problem72 {
     public int[][] solution(int n) {
         int[][] answer = new int[n][n];
         int num = 1;

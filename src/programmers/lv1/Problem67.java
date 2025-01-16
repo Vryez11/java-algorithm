@@ -1,9 +1,9 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
 import java.util.HashMap;
 import java.util.Map;
 
-class Programmers4 {
+class Problem67 {
     public String[] solution(String[] players, String[] callings) {
         String[] answer = new String[players.length];
         Map<String, Integer> nameRank = new HashMap<String, Integer>();

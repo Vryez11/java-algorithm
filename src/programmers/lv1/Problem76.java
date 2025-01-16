@@ -1,8 +1,8 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
 import java.util.Stack;
 
-public class Programmers13 {
+public class Problem76 {
     public static int solution(int[][] board, int[] moves) {
         int answer = 0;
         int count = 0;

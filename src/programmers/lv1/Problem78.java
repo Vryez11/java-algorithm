@@ -1,6 +1,6 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
-public class Programmers15 {
+public class Problem78 {
 
     public int solution(int[][] dots) {
         int answer = 0;

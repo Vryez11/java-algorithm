@@ -1,6 +1,4 @@
-package src.programmers.problems;
-
-import java.util.Arrays;
+package src.programmers.lv1;
 
 class Programmers5 {
     public int[] solution(String[] wallpaper) {

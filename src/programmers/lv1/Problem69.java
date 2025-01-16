@@ -1,9 +1,9 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
 import java.util.Map;
 import java.util.HashMap;
 
-class Programmers6 {
+class Problem69 {
     public int[] solution(String[] id_list, String[] report, int k) {
         int[] answer = new int[id_list.length];
 

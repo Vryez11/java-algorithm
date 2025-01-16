@@ -1,9 +1,9 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Programmers8 {
+public class Problem71 {
     public int[] solution(String today, String[] terms, String[] privacies) {
         //answer을 대입할 배열
         int tmp = 0;

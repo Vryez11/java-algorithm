@@ -1,6 +1,6 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
-public class Programmers7Ref {
+public class Problem70Ref {
     public int[] solution(String[] park, String[] routes) {
         //park 배열에서 가로와 세로의 크기를 추출
         int length = park.length;
@@ -24,7 +24,7 @@ public class Programmers7Ref {
             }
         }
 
-        Programmers7DirMoveClass process = new Programmers7DirMoveClass(startX, startY, arrMap);
+        Problem70DirMoveClass process = new Problem70DirMoveClass(startX, startY, arrMap);
 
         for (String route : routes) {
             String dir = route.split(" ")[0];

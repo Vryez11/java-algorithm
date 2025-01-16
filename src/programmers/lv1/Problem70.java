@@ -1,6 +1,6 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
-public class Programmers7 {
+public class Problem70 {
     public int[] solution(String[] park, String[] routes) {
         //park 배열에서 가로와 세로의 크기를 추출
         int length = park.length;

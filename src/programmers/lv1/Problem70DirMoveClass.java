@@ -1,11 +1,11 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
-public class Programmers7DirMoveClass {
+public class Problem70DirMoveClass {
     private int startX;
     private int startY;
     private int[][] arrMap;
 
-    Programmers7DirMoveClass(int startX, int startY, int[][] arrMap) {
+    Problem70DirMoveClass(int startX, int startY, int[][] arrMap) {
         this.startX = startX;
         this.startY = startY;
         this.arrMap = arrMap;

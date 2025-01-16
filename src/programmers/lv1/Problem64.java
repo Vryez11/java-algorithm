@@ -1,26 +1,34 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
-import java.util.HashMap;
-import java.util.Map;
-
-class Programmers1Ref {
+class Problem64 {
     public int solution(String[] friends, String[] gifts) {
         int answer = 0;
         int[][] arr = new int[friends.length][friends.length];
-        int[] giftIndex = new int[friends.length];
-        //Map을 키: 이름, 값: 인겍스로 저장
-        Map <String, Integer> giftMap = new HashMap<String, Integer>();
-        for (int i = 0; i < friends.length; i++) {
-            giftMap.put(friends[i], i);
-        }
-        //Map을 이용하여 arr2차원 배열과 선물지수 저장
-        for(String gift : gifts) {
-            String Jun = gift.split(" ")[0];
-            String Bab = gift.split(" ")[1];
-            giftIndex[giftMap.get(Jun)]++;
-            giftIndex[giftMap.get(Bab)]--;
 
-            arr[giftMap.get(Jun)][giftMap.get(Bab)]++;
+        //준 사람과 받은 사람을 " "을 기준으로 나눠서 저장
+        for (String str : gifts) {
+            String Jun = str.split(" ")[0];
+            String Bab = str.split(" ")[1];
+
+            //준 사람과 받은 사람을 equals 함수를 이용하여 arr인덱스를 찾아서 증감
+            for (int i = 0; i < friends.length; i++) {
+                if (Jun.equals(friends[i])){
+                    for (int j = 0; j < friends.length; j++) {
+                        if (Bab.equals(friends[j])) arr[i][j]++;
+                    }
+                }
+            }
+        }
+
+        //선물 점수를 계산하여 giftIndex 배열에 저장
+        int[] giftIndex = new int[friends.length];
+        for (int i = 0; i < friends.length; i++) {
+            int Jun = 0, Bab = 0;
+            for (int j = 0; j < friends.length; j ++) {
+                Jun += arr[i][j];
+                Bab += arr[j][i];
+            }
+            giftIndex[i] = Jun - Bab;
         }
 
         //위에서 계산한 arr 2차원 배열과 giftIndex 배열을 이용하여 monthGift 배열에 다음 달 선물 갯수를 계산하여 저장

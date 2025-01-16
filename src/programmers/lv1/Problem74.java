@@ -1,9 +1,9 @@
-package src.programmers.problems;
+package src.programmers.lv1;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Programmers11 {
+public class Problem74 {
     public static String solution(String[] survey, int[] choices) {
         int[] arr4Personality = new int[4];
         
