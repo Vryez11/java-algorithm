@@ -2,6 +2,7 @@ package src.programmers.lv2;
 
 public class Problem3 {
 
+    //JadenCase 문자열 만들기
     public String solution(String s) {
 
         char[] sArray = s.toCharArray();
