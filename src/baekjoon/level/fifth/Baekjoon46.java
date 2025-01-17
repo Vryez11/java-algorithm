@@ -2,7 +2,7 @@ package src.baekjoon.level.fifth;
 
 import java.io.*;
 
-public class Problem46 {
+public class Baekjoon46 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

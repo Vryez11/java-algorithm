@@ -4,14 +4,17 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Problem42 {
+public class Baekjoon43 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String s = br.readLine();
-        br.close();
+        int T = Integer.parseInt(br.readLine());
 
-        System.out.println(s.length());
+        for (int i = 0; i < T; i++) {
+            String str = br.readLine();
+            System.out.println("" + str.charAt(0) + str.charAt(str.length() - 1));
+        }
+        br.close();
     }
 }
