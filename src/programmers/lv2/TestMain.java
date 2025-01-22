@@ -4,9 +4,9 @@ public class TestMain {
 
     public static void main(String[] args) {
 
-        Problem9 problem = new Problem9();
+        Problem14 problem = new Problem14();
 
-        int solution = problem.solution("baabaa");
+        int solution = problem.solution(new int[]{9, 27, 18, 81});
 
         System.out.println("solution = " + solution);
     }
