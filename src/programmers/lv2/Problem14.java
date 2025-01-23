@@ -2,6 +2,7 @@ package src.programmers.lv2;
 
 public class Problem14 {
 
+    //N개의 최소공배수
     public int solution(int[] arr) {
         int gcd = arr[0];
         int mult = arr[0];

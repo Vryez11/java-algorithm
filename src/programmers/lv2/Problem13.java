@@ -2,6 +2,7 @@ package src.programmers.lv2;
 
 public class Problem13 {
 
+    //멀리 뛰기
     public long solution(int n) {
         long[] answer = new long[2001];
         answer[1] = 1;

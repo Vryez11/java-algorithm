@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class Problem15 {
 
+    //영어 끝말잇기
     public int[] solution(int n, String[] words) {
         Set<String> set = new HashSet<>();
         char lastChar = words[0].charAt(words[0].length() - 1);
