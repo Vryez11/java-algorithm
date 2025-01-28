@@ -4,10 +4,8 @@ public class TestMain {
 
     public static void main(String[] args) {
 
-        Problem19 problem = new Problem19();
+        Problem21 problem = new Problem21();
 
-        int solution = problem.solution("[)(]");
-
-        System.out.println("solution = " + solution);
+        problem.solution(5, 0, 0);
     }
 }

@@ -1,16 +1,20 @@
 package src.programmers.lv2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Problem21 {
 
-    public int[] solution(int n, long left, long right) {
+    // n^2 배열 자르기
+    public List<Integer> solution(int n, long left, long right) {
+        List<Integer> res = new ArrayList<>();
 
-        int[][] arr = new int[n + 1][n + 1];
-        for (int i = 1; i <= n; i++) {
-            int indexX = 1;
-            int indexY = 1;
-
+        for (long i = left; i <= right; i++) {
+            int yIndex = (int) (i / n) + 1;
+            int xIndex = (int) (i % n) + 1;
+            res.add(Math.max(yIndex, xIndex));
         }
 
-        return null;
+        return res;
     }
 }
