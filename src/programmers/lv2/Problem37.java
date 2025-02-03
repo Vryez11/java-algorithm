@@ -22,7 +22,7 @@ public class Problem37 {
 
         return count;
     }
-    
+
     private boolean isPrime(long n) {
         if (n == 1L) return false;
 
