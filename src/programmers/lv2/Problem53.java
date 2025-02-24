@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Problem53 {
 
+    // 가장 큰 수
     public String solution(int[] numbers) {
         String[] strNums = new String[numbers.length];
         for (int i = 0; i < numbers.length; i++) {
