@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Problem69 {
 
-    static Map<String, Integer> combinationMap; 
+    static Map<String, Integer> combinationMap;
 
     public String[] solution(String[] orders, int[] course) {
         List<String> answerList = new ArrayList<>();
