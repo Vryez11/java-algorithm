@@ -9,7 +9,7 @@ public class Problem79 {
 
         int round = 0;
         PriorityQueue<Integer> pq = new PriorityQueue<>((o1, o2) -> o2 - o1);
-        
+
         for (int enemy : enemies) {
             if (n >= enemy) {
                 n -= enemy;
