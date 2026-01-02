@@ -26,7 +26,6 @@ public class Baekjoon152 {
         dfs(idx + 1, cnt + 1);
 
         pick[idx] = false;
-        lo
         dfs(idx + 1, cnt);
     }
 
