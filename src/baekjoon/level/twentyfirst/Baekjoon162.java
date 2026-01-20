@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Baekjoon182 {
+public class Baekjoon162 {
 
     static final long mod = 1_000_000_000;
 
