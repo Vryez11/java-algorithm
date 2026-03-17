@@ -6,9 +6,10 @@ public class TestMain {
 
     public static void main(String[] args) {
 
-        Problem35 problem = new Problem35();
+        Problem86 problem86 = new Problem86();
 
-        int solution = problem.solution("UUDDUUDDUUDD");
-        System.out.println(solution);
+        int solution = problem86.solution(new int[]{1, 5, 3}, new int[]{2, 4, 7}, 30L);
+
+        System.out.println("solution = " + solution);
     }
 }
