@@ -35,7 +35,7 @@ public class Problem89 {
                     }
                 }
             } else {
-                removeByForklift(map, target);
+                remove(map, target);
             }
         }
 
@@ -51,7 +51,7 @@ public class Problem89 {
         return count;
     }
 
-    private void removeByForklift(char[][] map, char target) {
+    private void remove(char[][] map, char target) {
         int h = map.length;
         int w = map[0].length;
 
