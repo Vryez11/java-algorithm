@@ -6,10 +6,8 @@ public class TestMain {
 
     public static void main(String[] args) {
 
-        Problem86 problem86 = new Problem86();
-
-        int solution = problem86.solution(new int[]{1, 5, 3}, new int[]{2, 4, 7}, 30L);
-
+        Problem91 problem91 = new Problem91();
+        String[] solution = problem91.solution(new String[][]{{"korean", "12:10", "30"}, {"english", "11:40", "20"}});
         System.out.println("solution = " + solution);
     }
 }
