@@ -10,7 +10,6 @@ public class Problem93 {
         int colCount = relation[0].length;
 
         List<Integer> candidateKeys = new ArrayList<>();
-        
         for (int bit = 1; bit < (1 << colCount); bit++) {
 
             boolean isMinimal = true;
