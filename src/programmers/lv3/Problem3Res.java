@@ -22,7 +22,7 @@ public class Problem3Res {
 
         for (int next = 0; next < n; next++) {
             if (now == next) continue;
-            
+
             if (computers[now][next] == 1 && !visited[next]) {
                 dfs(next, n, computers, visited);
             }
