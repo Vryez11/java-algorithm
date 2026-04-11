@@ -2,7 +2,7 @@ package src.programmers.lv3;
 
 import java.util.Arrays;
 
-class Problem5Res1 {
+class Problem5Res {
 
     // 야근 지수 - 이분 탐색 풀이
     public long solution(int n, int[] works) {
