@@ -2,7 +2,7 @@
 
 알고리즘 문제 해결을 통한 프로그래밍 실력 향상 프로젝트
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gohead12)](https://solved.ac/gohead12)
+[![Solved.ac Profile](https://mazassumnida.wtf/api/v2/generate_badge?boj=gohead12)](https://solved.ac/gohead12)
 
 ## 📊 Progress Overview
 
