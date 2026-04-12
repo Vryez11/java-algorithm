@@ -94,7 +94,9 @@
 #### DFS/BFS
 - 네트워크 (Problem3, Problem3Res)
 #### 이분탐색
-- 야근 지수 (Problem5Res1)
+- 야근 지수 (Problem5Res)
+#### 우선순위큐
+- 야근 지수 (Problem5)
 </details>
 
 ### 백준 단계별로 풀어보기 
