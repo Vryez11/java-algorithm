@@ -2,15 +2,15 @@
 
 알고리즘 문제 해결을 통한 프로그래밍 실력 향상 프로젝트
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gohead12)](https://solved.ac/YOUR_BOJ_ID)
+[![Solved.ac Profile](https://mazassumnida.wtf/api/v2/generate_badge?boj=gohead12)](https://solved.ac/gohead12)
 
 ## 📊 Progress Overview
 
-| Platform | Solved  | Total Focus |
-|----------|---------|-------------|
-| **프로그래머스** | 152     | Lv1: 76문제, Lv2: 76문제 |
-| **백준** | 186     | 단계별 학습 + 알고리즘 분류별 |
-| **총 문제 수** | **338** | 지속적으로 증가 중 📈 |
+| Platform | Solved  | Total Focus                     |
+|----------|---------|---------------------------------|
+| **프로그래머스** | 189     | Lv1: 80문제, Lv2: 100문제, Lv3: 10문제 |
+| **백준** | 186     | 단계별 학습 + 알고리즘 분류별               |
+| **총 문제 수** | **375** | 지속적으로 증가 중 📈                   |
 
 ## 🎯 Study Goals
 
@@ -46,13 +46,13 @@
 - 크레인 인형 뽑기 (2019), 키패드 누르기 (2020)
 
 #### PCCP 기출
-- PCCP 기출문제 1번 / 붕대 감기
+- [PCCP 기출문제] 1번 / 붕대 감기
 - [PCCE 기출문제] 9번 / 지폐 접기, 이웃한 칸
 - [PCCP 기출문제] 10번 / 데이터 분석, 공원
 - [PCCP 기출문제] 1번 / 동영상 재생기
 </details>
 
-### 프로그래머스 Level 2 (76문제)
+### 프로그래머스 Level 2 (100문제)
 <details>
 <summary>펼쳐보기</summary>
 
@@ -61,7 +61,7 @@
 - 기능개발, 프로세스, 다리를 지나는 트럭
 
 #### 완전탐색/백트래킹
-- 피로도, 타켓 넘버, 전력망을 둘로 나누기
+- 피로도, 타겟 넘버, 전력망을 둘로 나누기
 - 소수 찾기, 모음사전
 
 #### 그리디
@@ -81,6 +81,25 @@
 - 오픈채팅방, 주차 요금 계산, k진수에서 소수 개수 구하기
 - 메뉴 리뉴얼, 거리두기 확인하기, 수식 최대화
 - 두 큐 합 같게 만들기, 문자열 압축
+</details>
+
+### 프로그래머스 Level 3 (3문제) 
+<details>
+<summary>펼처보기</summary>
+
+#### 동적계획법
+- 정수 삼각형
+- 등굣길
+#### 힙
+- 이중우선순위큐
+#### DFS/BFS
+- 네트워크 (Problem3, Problem3Res)
+#### 이분탐색
+- 야근 지수 (Problem5Res)
+#### 우선순위큐
+- 야근 지수 (Problem5)
+#### 그리디
+- 숫자 게임 (Problem7), 단속카메라 (Problem8)
 </details>
 
 ### 백준 단계별로 풀어보기 
