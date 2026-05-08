@@ -23,6 +23,7 @@ public class Problem27 {
         for (int i = n - 1; i >= 0; i--) {
             if (a[i] < min) {
                 possible[i] = true;
+                min = a[i];
             }
         }
 
