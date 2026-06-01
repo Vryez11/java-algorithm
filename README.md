@@ -146,7 +146,9 @@
 ### LeetCode75
 <details>
 <summary>펼쳐보기</summary>
-#### Merge Strings Alternately (day1)
+
+#### Array / String
+- Merge Strings Alternately (day1)
 </details>
 
 ### 백준 단계별로 풀어보기 
