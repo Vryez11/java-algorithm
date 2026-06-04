@@ -151,6 +151,7 @@
 - Merge Strings Alternately (day1)
 - Greatest Common Divisor of Strings (day3Morning)
 - Kids With the Greatest Number of Candies (day3Night)
+- Can Place Flowers (day4Morning)
 </details>
 
 ### 백준 단계별로 풀어보기 
