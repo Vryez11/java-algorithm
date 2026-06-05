@@ -10,8 +10,8 @@
 |--------------|---------|----------------------------------|
 | **프로그래머스**   | 220     | Lv1: 80문제, Lv2: 100문제, Lv3: 40문제 |
 | **백준**       | 186     | 단계별 학습 + 알고리즘 분류별                |
-| **LeetCode** | 5       | LeetCode75: 5문제                  |
-| **총 문제 수**   | **410** | 지속적으로 증가 중 📈                    |
+| **LeetCode** | 6       | LeetCode75: 6문제                  |
+| **총 문제 수**   | **412** | 지속적으로 증가 중 📈                    |
 
 ## 🎯 Study Goals
 
@@ -153,6 +153,7 @@
 - Kids With the Greatest Number of Candies (day3Night)
 - Can Place Flowers (day4Morning)
 - Reverse Vowels of a String (day4Night)
+- Reverse Words in a String (day5Moring)
 </details>
 
 ### 백준 단계별로 풀어보기 
