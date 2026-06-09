@@ -1,4 +1,4 @@
-package src.leetcode.leetcode75.array_string.day3night;
+package src.leetcode.leetcode75.array_string.day3_2;
 
 import java.util.ArrayList;
 import java.util.List;

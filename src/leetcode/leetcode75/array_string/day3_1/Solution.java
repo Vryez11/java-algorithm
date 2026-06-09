@@ -1,4 +1,4 @@
-package src.leetcode.leetcode75.array_string.day3morning;
+package src.leetcode.leetcode75.array_string.day3_1;
 
 public class Solution {
 

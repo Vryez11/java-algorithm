@@ -1,4 +1,4 @@
-package src.leetcode.leetcode75.array_string.day5morning;
+package src.leetcode.leetcode75.array_string.day5;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
