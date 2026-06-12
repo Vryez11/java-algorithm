@@ -10,8 +10,8 @@
 |--------------|---------|----------------------------------|
 | **프로그래머스**   | 220     | Lv1: 80문제, Lv2: 100문제, Lv3: 40문제 |
 | **백준**       | 186     | 단계별 학습 + 알고리즘 분류별                |
-| **LeetCode** | 12      | LeetCode75: 12문제                 |
-| **총 문제 수**   | **418** | 지속적으로 증가 중 📈                    |
+| **LeetCode** | 13      | LeetCode75: 13문제                 |
+| **총 문제 수**   | **419** | 지속적으로 증가 중 📈                    |
 
 ## 🎯 Study Goals
 
@@ -162,6 +162,7 @@
 - Move Zeroes (day9)
 - Is Subsequence (day10)
 - Container With Most Water (day11)
+- Max Number of K-Sum Pairs (day12)
 </details>
 
 ### 백준 단계별로 풀어보기 
