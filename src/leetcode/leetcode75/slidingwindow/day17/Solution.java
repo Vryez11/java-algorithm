@@ -23,7 +23,7 @@ public class Solution {
 
             left++;
             right++;
-            
+
             if (isVowel(sChars[right])) {
                 tempVowelsCount++;
             }
