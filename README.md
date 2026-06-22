@@ -10,7 +10,7 @@
 |--------------|---------|----------------------------------|
 | **프로그래머스**   | 220     | Lv1: 80문제, Lv2: 100문제, Lv3: 40문제 |
 | **백준**       | 186     | 단계별 학습 + 알고리즘 분류별                |
-| **LeetCode** | 16      | LeetCode75: 16문제                 |
+| **LeetCode** | 17      | LeetCode75: 17문제                 |
 | **총 문제 수**   | **421** | 지속적으로 증가 중 📈                    |
 
 ## 🎯 Study Goals
@@ -168,6 +168,7 @@
 - Maximum Average Subarray 1 (day15)
 - Maximum Number of Vowels in a Substring of Given Length (day17)
 - Max Consecutive Ones 3 (day18)
+- Longest Subarray of 1's After Deleting One Element (day22)
 </details>
 
 
